@@ -283,8 +283,11 @@ text-align: center;
     margin: 0 0 20px 0;
   }
   .section-2 img{
-    width: 75vw;
+    width: 65vw;
     height: 200px;
+  }
+   .section-2  p{
+    font-size: 1.3em;
   }
   .flash-sale{
     width: 85vw;
