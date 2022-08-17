@@ -1,0 +1,30 @@
+.pkc-first{
+  margin: 100px auto;
+  max-width: 900px;
+  text-align: center;
+}
+.pkc-first h1{
+  font-family: var(--headfont);
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.pkc-first p{
+  font-family: var(--mainfont);
+  font-size: 1.3em;
+}
+input[type=number]{
+  border: 1px solid var(--darkgreen);
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+@media screen and (max-width:420px) and (min-width:320px) {
+  .pkc-first h1{
+    font-size: 2.5em;
+  }
+  .pkc-first{
+    padding: 0 20px;
+  }
+  .palm{
+    margin-bottom: 20px;
+  }
+}

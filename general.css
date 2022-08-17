@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Cinzel+Decorative&family=Playball&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&family=Charm&family=Cinzel+Decorative&family=Playball&display=swap');
+@font-face {
+  font-family: boldfont;
+  src: url(Millik.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --mainfont: 'Archivo';
+  --headfont: 'Marcellus SC';
+  --yellow: #F7D132;
+  --darkgreen:#197A52;
+  --lightgreen: #70B747;
+  --background: #F4F4F4;
+  --backgr: #2c2c2c44;
+  --newfont: 'Archivo';
+}

@@ -1,0 +1,448 @@
+.section-1{
+  /* background-image: url(Project-images/Group-481369.png); */
+  /* height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat; */
+  min-height: 100vh;
+  background: url(Project-images/Group-481369.png) center/cover no-repeat fixed;
+  /* overflow-x: hidden; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.section-1 h1{
+font-size: 4.3em;
+font-family: var(--newfont);
+margin-bottom: 40px;
+color: white;
+max-width: 800px;
+line-height: 1.4;
+}
+.section-1 span{
+  color: var(--lightgreen);
+}
+.section-1 input{
+  width: 350px;
+  padding: 30px 0;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: var(--mainfont);
+  cursor: pointer;
+}
+.register{
+  background-color: var(--yellow);
+  border-radius: 15px;
+  border: none;
+}
+.register:hover{
+  opacity: 0.7;
+}
+.product{
+  background-color: transparent;
+  border-radius: 15px;
+  color: white;
+  border: white 1px solid;
+  margin-left: 20px;
+}
+.product:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 90px 0 70px 30px;
+  flex-wrap: wrap;
+  background-color: var(--background);
+}
+.section p{
+  font-size: 2.3em;
+  font-family: var(--newfont);
+}
+.section img{
+  width: 200px;
+  opacity: 1;
+}
+.section-2{
+  /* background-image: url(Project-images/halftone-dots-white-background-gray-dots-halftone-texture_47243-1127.webp); */
+  /* background-size: 100%; */
+  padding: 100px 0;
+  /* background-blend-mode: lighten; */
+  /* background-color: var(--background); */
+}
+.section-2 h2{
+  text-align: center;
+  font-family: var(--headfont);
+  font-size: 3.5em;
+}
+.section-2 img{
+  width: 350px;
+  height: 350px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.products-body{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.products-body p{
+  font-family: var(--mainfont);
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+.products-body div{
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+  padding-bottom: 20px;
+  border-radius: 10px;
+  transition: 0.6s;
+  margin-right: 40px;
+  background-color: var(--background);
+}
+.products-body div:hover{
+  /* transform: scaleY(1.05); */
+  transform: scale(1.03);
+}
+.products-body input{
+  padding: 15px 30px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 15px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.products-body input:hover{
+  opacity: 0.8;
+}
+.input{
+text-align: center;
+}
+/* .section-2-content{
+  font-size: 3em;
+  font-family: var(--newfont);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  align-items: center;
+}
+.section-2-content a{
+  color: var(--darkgreen);
+} */
+
+.flash-sale{
+  width: 85vw;
+  height: 520px;
+  background-color: var(--darkgreen);
+  margin: 150px 0 150px 100px;
+  padding: 20px 30px 70px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 80px;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+  font-family: var(--newfont);
+}
+.flash-sale h2{
+  color: var(--yellow);
+  font-size: 3.5em;
+  line-height: 2;
+}
+.flash-sale p{
+  font-size: 2.3em;
+  line-height: 1.5;
+  max-width: 400px;
+  color: white;
+  margin-bottom: 20px;
+}
+.flash-sale input{
+  padding: 20px 80px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  animation: deals 2s linear 1s infinite normal;
+}
+.flash-sale input:hover{
+  /* opacity: 0.8; */
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+}
+@keyframes deals{
+  0%{padding: 20px 80px;}
+  50%{padding: 30px 90px; border-radius: 25px;}
+  100%{padding: 20px 80px;}
+}
+.flash-sale img{
+  width: 650px;
+}
+
+.reviews{
+  background-color: var(--background);
+  padding-bottom: 5%;
+  font-family: var(--mainfont);
+}
+.reviews h2{
+  padding: 50px 0;
+  font-family: var(--headfont);
+  font-size: 3em;
+  margin-left: 2em;
+}
+.reviews h3{
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.normal-review-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.normal-review{
+  width: 30%;
+}
+.fa-star{
+  color: var(--yellow);
+}
+.normal-review p{
+  font-size: 22px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.verified{
+  margin-top: 3%;
+  font-size: 16px;
+  font-family: var(--mainfont);
+  color: var(--darkgreen);
+}
+.normal-review{
+  /* background-color: var(--darkgreen); */
+  padding: 50px;
+  border-top-right-radius: 25%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 20px;
+  /* transform: rotate(-2deg); */
+  color: black;
+  border: 5px solid var(--darkgreen);
+}
+@media screen and (max-width:420px) and (min-width:320px) {
+  .section-1{
+    background-size: cover;
+    background-position: bottom right 14%;
+    padding-left: 20px;
+  }
+  .section-1 a{
+    text-decoration: none;
+  }
+  .section-1 input{
+    width: 250px;
+    font-size: 19px;
+  }
+  .section-1 h1{
+    font-size: 2.5em;
+    max-width: 350px;
+  }
+  .product{
+    display: block;
+    margin: 20px 0 0 0;
+  }
+  .section{
+    padding: 50px 0;
+    text-align: center;
+    flex-direction: column;
+  }
+  .section img{
+    margin-bottom: 20px;
+  }
+  .section p{
+    margin-bottom: 20px;
+  }
+  .section-2{
+    background-image: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .section-2 h2{
+    font-size: 2.9em;
+  }
+  .products-body{
+    flex-direction: column;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .products-body div{
+    margin: 0 0 20px 0;
+  }
+  .section-2 img{
+    width: 75vw;
+    height: 200px;
+  }
+  .flash-sale{
+    width: 85vw;
+    padding: 5px 0 5px 10px;
+    margin: 0 0 0 20px;
+    height: 400px;
+    position: relative;
+  }
+  .flash-sale img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+  }
+  .flash-sale h2{
+    font-size: 28px;
+  }
+  .flash-sale p{
+    font-size: 19px;
+    max-width: 200px;
+  }
+  .flash-sale input{
+    font-size: 16px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  @keyframes deals{
+    0%{padding: 15px 20px;}
+    50%{padding: 25px 30px; border-radius: 10px;}
+    100%{padding: 15px 20px;}
+  }
+  .reviews h2{
+    font-size: 2.2em;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .reviews h3{
+    font-size: 20px;
+  }
+  .normal-review{
+    width: 85vw;
+    height: 260px;
+    margin-bottom: 20px;
+  }
+  .normal-review, .seller-review{
+    padding: 20px;
+  }
+  .reviews p, .seller-review p{
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .seller-review{
+    height: 380px;
+    width: 90vw;
+  }
+}
+
+
+@media screen and (max-width:600px) and (min-width:421px) {
+  .section-1 h1{
+    font-size: 3em;
+  }
+  .section-1{
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom right 8%;
+  }
+  .product{
+    margin: 12px 0 ;
+  }
+  .section{
+    flex-direction: column;
+  }
+  .section img{
+    margin: 10px 0;
+  }
+  .section-2{
+    padding: 50px 0;
+    margin-bottom: 20px;
+    background-image: none;
+  }
+  .products-body{
+    flex-direction: column;
+  }
+  .products-body div{
+    margin-bottom: 30px;
+    width: 350px;
+  }
+  .flash-sale{
+    height: 80vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 0 0 35px;
+  }
+  .flash-sale img{
+    width: 300px;
+  }
+  .flash-sale h2{
+    font-size: 2em;
+  }
+  .normal-review{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .reviews h3{
+    font-size: 1.5rem;
+  }
+  .reviews p, .seller-review p{
+    font-size: 16px;
+  }
+  .normal-review, .seller-review{
+    padding: 50px;
+  }
+  .seller-review{
+    width: 440px;
+  }
+}
+@media screen and (max-width:900px) and (min-width:601px) {
+  .section-1 h1{
+    font-size: 3em;
+  }
+  .section-1{
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom right 8%;
+  }
+  .product{
+    margin: 12px 0 ;
+  }
+  .section-2{
+    padding: 50px 0;
+    margin-bottom: 20px;
+  }
+  .section-2-content{
+    flex-direction: column;
+  }
+  .section-2-content div{
+    margin-bottom: 30px;
+  }
+  .flash-sale{
+    width: 85vw;
+    margin: 70px 0 70px 70px;
+  }
+  .flash-sale img{
+    width: 300px;
+  }
+  .flash-sale h2{
+    font-size: 2em;
+  }
+  .normal-review-container{
+    flex-direction: column;
+  }
+  .normal-review{
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  .seller-review{
+    max-width: 601px;
+  }
+}

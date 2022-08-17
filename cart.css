@@ -1,0 +1,42 @@
+.cart{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+.fa-cart-arrow-down{
+  animation-duration: 2s;
+}
+.cart-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: var(--mainfont);
+}
+.cart-body p{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 0 30px;
+}
+input{
+  margin-top: 15px;
+  padding: 20px 30px;
+  border: none;
+  background-color: var(--yellow);
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+input:hover{
+  opacity: 0.7;
+}
+.fa-cart-shopping{
+  color: var(--lightgreen);
+}
+body{
+  background-color: var(--background);
+  background-image: url(Project-images/new.jpg);
+  background-blend-mode: lighten;
+}
